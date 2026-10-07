@@ -4,4 +4,6 @@ description: A relentless interview to sharpen a plan or design, which also crea
 disable-model-invocation: true
 ---
 
-Call the Skill tool twice, for "grilling" and "domain-modeling".
+Follow the grilling and domain-modeling skills.
+- Codex: call the Skill tool twice, for "grilling" and "domain-modeling".
+- Grok Bot: Read the grilling and domain-modeling skills and follow them.
