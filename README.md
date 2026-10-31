@@ -1,6 +1,6 @@
-# agentic-workflow
+# agent-skills
 
-Shared agent skills for the Grok Bot team (also usable with Codex).
+Personal fork of agentic-workflow. Tickets and docs are written to a per-project destinations config (Linear or local files; a local docs folder), never to the project's own repo or ticketing system. Run `setup-destinations` once per project.
 
 | Skill | Description |
 | --- | --- |
@@ -9,6 +9,9 @@ Shared agent skills for the Grok Bot team (also usable with Codex).
 | **grill-me** | Relentless interview to sharpen a plan or design. |
 | **grill-with-docs** | Same as grill-me, while writing glossary and ADR docs as you go. |
 | **grilling** | Core grilling interview discipline (used by grill-me / grill-with-docs). |
+| **setup-destinations** | Configure where tickets and docs get written for a project. |
+| **wayfinder**, **to-tickets**, **to-spec** | Plan and publish tickets/specs to the configured destination. |
+| **research**, **prototype** | Resolve decision tickets; findings stay in the docs root. |
 | **unslop** | Cut AI tells from any writing. |
 
 `domain-modeling` is included because `grill-with-docs` depends on it.

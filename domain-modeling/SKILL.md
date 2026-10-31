@@ -13,21 +13,21 @@ Companion formats live next to this skill: `GLOSSARY-FORMAT.md` and `ADR-FORMAT.
 
 ## File structure
 
-Most repos have a single context:
+These docs live in the **docs root** from the `setup-destinations` config (call the Skill tool with "setup-destinations" if none exists), not in the repo. Read "the repo root" below as the docs root and `docs/adr/` as `<docs_root>/adr/`.
+
+Most projects have a single context:
 
 ```
 /
 ├── GLOSSARY.md
-├── docs/
-│   └── adr/
-│       ├── 0001-event-sourced-orders.md
-│       └── 0002-postgres-for-write-model.md
-└── src/
+└── adr/
+    ├── 0001-event-sourced-orders.md
+    └── 0002-postgres-for-write-model.md
 ```
 
 If a `GLOSSARY-MAP.md` exists at the root, the repo has multiple contexts. The map points to where each one lives.
 
-Create files lazily: only when you have something to write. If no `GLOSSARY.md` exists, create one when the first term is resolved. If no `docs/adr/` exists, create it when the first ADR is needed.
+Create files lazily: only when you have something to write. If no `GLOSSARY.md` exists, create one when the first term is resolved. If no `adr/` exists, create it when the first ADR is needed.
 
 ## During the session
 
