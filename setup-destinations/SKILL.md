@@ -5,7 +5,7 @@ description: Decide where tickets, specs, glossary, ADRs and research notes get 
 
 # Setup Destinations
 
-Other skills (`wayfinder`, `to-tickets`, `to-spec`, `domain-modeling`, `research`, `prototype`, `diagnosing-bugs`) never assume a repo issue tracker or write docs into the repo. They read a **destinations config** and write there. This keeps planning artifacts out of the project's own repo and ticketing system.
+Other skills (`wayfinder`, `to-tickets`, `to-spec`, `domain-modeling`, `research`, `prototype`, `diagnosing-bugs`, `vallen-code-review`) never assume a repo issue tracker or write docs into the repo. They read a **destinations config** and write there. This keeps planning artifacts out of the project's own repo and ticketing system.
 
 ## The config
 
@@ -26,6 +26,7 @@ docs_root: ~/agent-docs/<project>
 ├── adr/                   0001-slug.md, ...
 ├── specs/                 <slug>.md
 ├── research/              <topic>.md
+├── reviews/               <branch-slug>-<sha>.md
 └── tickets/<slug>/        local tracker only: <NN>-<slug>.md, one file per ticket
 ```
 
