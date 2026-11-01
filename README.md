@@ -6,6 +6,7 @@ Personal fork of agentic-workflow. Tickets and docs are written to a per-project
 | --- | --- |
 | **diagnosing-bugs** | Diagnosis loop for hard bugs and performance regressions. |
 | **domain-modeling** | Build and sharpen a project's domain model (glossary + ADRs). |
+| **vallen-code-review** | Review a branch's committed diff with local git only (no PR/remote integration); report goes to the docs root. |
 | **grill-me** | Relentless interview to sharpen a plan or design. |
 | **grill-with-docs** | Same as grill-me, while writing glossary and ADR docs as you go. |
 | **grilling** | Core grilling interview discipline (used by grill-me / grill-with-docs). |
