@@ -14,5 +14,6 @@ Personal fork of agentic-workflow. Tickets and docs are written to a per-project
 | **wayfinder**, **to-tickets**, **to-spec** | Plan and publish tickets/specs to the configured destination. |
 | **research**, **prototype** | Resolve decision tickets; findings stay in the docs root. |
 | **unslop** | Cut AI tells from any writing. |
+| **delegate** | Hand specs and follow-ups to subagents: plan, approval gate, implement. Paired with the root `CLAUDE.md`. |
 
 `domain-modeling` is included because `grill-with-docs` depends on it.
